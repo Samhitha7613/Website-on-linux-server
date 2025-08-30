@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #4a90e2;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: #4a90e2;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .card a:hover {
+      background: #357ABD;
+    }
+  </style>
+</head>
+<body>
+  <header>My Projects</header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Project: Phishing URL Detector</h2>
+      <p>A C++ tool that analyzes URLs for phishing patterns and typosquatting domains to raise security awareness.</p>
+      <a href="https://github.com/samhitha7613/Phishing-URL-Detector.git">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>Project: Password Strength Checker</h2>
+      <p>Python CLI tool that evaluates password strength, suggests improvements, and checks for breaches.</p>
+      <a href="https://github.com/samhitha7613/Password-checker.git">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>Project: Financing Platform (Android App)</h2>
+      <p>Created an Android application to assist startups in accessing funding opportunities.</p>
+      <a href="https://github.com/samhitha7613/Fund-Start.git">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>Project: Tic-Tac-Toe</h2>
+      <p>Console-based two-player game implemented in C++.</p>
+      <a href="https://github.com/samhitha7613/Tic-Tac-Toe.git">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>Project: Sudoku</h2>
+      <p>Console-based Sudoku game implemented in C++.</p>
+      <a href="https://github.com/samhitha7613/sudoko.cpp.git">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>Project: Vulnib (Vulnerable Library App)</h2>
+      <p>Deliberately insecure Android app to simulate real-world vulnerabilities.</p>
+      <a href="#">Ongoing</a>
+    </div>
+  </div>
+</body>
+</html>
